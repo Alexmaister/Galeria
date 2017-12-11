@@ -1,0 +1,30 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xml:android="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    >
+    <TextView
+        android:id="@+id/Titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:gravity="center_horizontal"
+        android:layout_gravity="top"/>
+    <Button
+        android:id="@+id/botoncamara"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CAMARA"
+        android:onClick="abrirCamara"
+        />
+    <Button
+        android:id="@+id/botongaleria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GALERIA"
+        android:onClick="abrirGaleria"/>
+
+</LinearLayout>
